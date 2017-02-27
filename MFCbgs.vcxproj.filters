@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\package_bgs">
+      <UniqueIdentifier>{8e4edcf8-a7c0-4814-bfc3-4e3a4740ae8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package_tracking">
+      <UniqueIdentifier>{3e7469e9-5f81-46e7-acc3-518232e095be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package_bgs">
+      <UniqueIdentifier>{d22eb791-218d-4843-8b36-0631739513b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package_tracking">
+      <UniqueIdentifier>{d721c1d7-13e1-4ab5-9808-d4bfabc5de78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package_bgs\PBAS">
+      <UniqueIdentifier>{ed0da794-347d-4306-b57f-405b5fa81eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package_bgs\PBAS">
+      <UniqueIdentifier>{4bbfb307-2cf8-4971-a69c-d77c194fb867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package_tracking\cvblob">
+      <UniqueIdentifier>{b6be30ea-173e-499d-8696-250827fd886d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package_tracking\cvblob">
+      <UniqueIdentifier>{d4e3ba60-26e9-4df0-a83d-d179834f8e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\package_analysis">
+      <UniqueIdentifier>{fe8062e5-9c63-454d-b38f-94c06611d2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package_analysis">
+      <UniqueIdentifier>{742e3a3c-25a1-47f3-8457-8af3e0273ad6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCbgs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCbgsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="package_tracking\BlobTracking.h">
+      <Filter>头文件\package_tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="package_tracking\cvblob\cvblob.h">
+      <Filter>头文件\package_tracking\cvblob</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\IBGS.h">
+      <Filter>头文件\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\PBAS\PBAS.h">
+      <Filter>头文件\package_bgs\PBAS</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\PBAS\PixelBasedAdaptiveSegmenter.h">
+      <Filter>头文件\package_bgs\PBAS</Filter>
+    </ClInclude>
+    <ClInclude Include="CvvImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random_walker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="thin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoPass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myRandom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="package_analysis\VehicleCouting.h">
+      <Filter>头文件\package_analysis</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCbgs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCbgsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\BlobTracking.cpp">
+      <Filter>源文件\package_tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvaux.cpp">
+      <Filter>源文件\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvblob.cpp">
+      <Filter>源文件\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvcolor.cpp">
+      <Filter>源文件\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvcontour.cpp">
+      <Filter>源文件\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvlabel.cpp">
+      <Filter>源文件\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvtrack.cpp">
+      <Filter>源文件\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\PBAS\PBAS.cpp">
+      <Filter>源文件\package_bgs\PBAS</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\PBAS\PixelBasedAdaptiveSegmenter.cpp">
+      <Filter>源文件\package_bgs\PBAS</Filter>
+    </ClCompile>
+    <ClCompile Include="CvvImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoPass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myRandom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package_analysis\VehicleCouting.cpp">
+      <Filter>源文件\package_analysis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCbgs.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCbgs.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCbgs.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
